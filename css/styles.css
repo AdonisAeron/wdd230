@@ -6,8 +6,8 @@ body{
     display: grid;
     max-width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 header {
@@ -106,4 +106,25 @@ footer{
     justify-self: center;
     margin-left: 30px;
     font-weight: 700;
+}
+
+@media only screen and (min-width: 1022px) and (max-width: 1517px){
+
+    .Image{
+        margin-left: 40%;
+    }
+    
+    .Name{
+        font-size: 40px;
+        margin-left: 5%;
+    }
+
+    .aLinks{
+        margin-left: 33%;
+    }
+
+    .aCRight{
+        margin-left: 5%;
+    }
+    
 }
