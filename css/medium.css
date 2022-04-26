@@ -1,0 +1,52 @@
+@media only screen and (max-width: 32.5em){
+    
+    .Image{
+        visibility: hidden;
+    }
+    
+    .Name{
+        font-size: 30px;
+    }
+
+    .aCRight{
+        grid-column: 1 / 6;
+        grid-row:  1 / 2;
+        font-size: 14px;
+    }
+
+    .aLModify{
+        grid-column: 1 / 6;
+        grid-row: 2 / 3;
+        padding-right: 25px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 32.5em) and (max-width: 1517px){
+
+    .Image{
+        margin-left: 40%;
+    }
+    
+    .Name{
+        font-size: 50px;
+        margin-left: 5%;
+    }
+
+    .aLinks{
+        padding-left: 95px;
+    }
+
+    .aCRight{
+        grid-column: 1 / 6;
+        grid-row:  1 / 2;
+        margin-left: 5%;
+    }
+
+    .aLModify{
+        grid-column: 1 / 6;
+        grid-row: 2 / 3;
+    }
+    
+}
