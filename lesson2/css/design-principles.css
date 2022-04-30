@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans&display=swap');
+
 :root{
     --mainBGColor: #bbedb5;
+    --hFont: 'Open Sans', sans-serif, arial;
+    --pFont: 'PT Sans', sans-serif, arial;
 }
 
 header {
@@ -12,6 +16,14 @@ header {
 body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+}
+
+h1, h2 {
+    font-family: var(--hFont);
+}
+
+p {
+    font-family: var(--pFont);
 }
 
 main {
