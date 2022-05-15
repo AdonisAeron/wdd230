@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+    --maincolor: #0194c8;
+    --sMainColor: #36454f;
+    --secondarycolor: #c8d434;
+    --mainTColor: white;
+    --hFont: 'Open Sans', sans-serif, arial;
+    --pFont: 'PT Sans', sans-serif, arial;
+}
+
+header a {
+    width: 30px;
+    height: 30px;
+}
+
+body {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main {
+    display: grid;
+    max-width: 100%;
+    grid-column: 1 / 5;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    justify-content: center;
+}
+
+main div {
+    background: #999;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 20px 5px 0 5px;
+}
+
+main div p {
+    margin: .2rem 2vw;
+}
+
+.mContent {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+}
+
+.action {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+.event {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+.weather {
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+}
+
+.news {
+    grid-column: 1 / 5;
+    grid-row: 6 / 7;
+}
+
+.spotlight {
+    grid-column: 1 / 5;
+    grid-row: 8 / 9;
+    height: 470px;
+    margin-bottom: 20px;
+}
+
+.join {
+    display: none;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    justify-content: center;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: .8rem 2vw;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, #c8d434, transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.lThree {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: var(--maincolor);
+    color: var(--mainTColor);
+    grid-column: 1 / 5;
+    justify-content: center;
+    align-content: center;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: 1 / 5;
+    grid-row: 5 / 7;
+    background-color: var(--maincolor);
+    margin-top: 20px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+}
+
+footer img, p, a {
+    padding: 5px 0 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--secondarycolor);
+}
+
+.fInfo {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+}
+
+.fText {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    justify-self: center;
+    font-weight: 700;
+}
+
+.pColor {
+    background-color: var(--maincolor);
+    color: var(--mainTColor);
+    text-align: center;
+}
+
+.sColor {
+    background-color: var(--sMainColor);
+    color: var(--mainTColor);
+    text-align: center;
+}
+
+.hColor {
+    background-color: var(--secondarycolor);
+    color: var(--mainTColor);
+    text-align: center;
+}
+
+.tColor {
+    background-color: black;
+    color: var(--mainTColor);
+    text-align: center;
+}
+
+.hSample {
+    font-size: 40px;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+.nSample {
+    font-size: 1.1rem;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+.fSample {
+    font-size: 16px;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+
+.h1Sample {
+    font-size: 30px;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+
+.h2Sample {
+    font-size: 25px;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+
+.h3Sample {
+    font-size: 20px;
+    font-family: var(--hFont);
+    text-align: center;
+}
+
+
+.pSample {
+    font-size: 16px;
+    font-family: var(--pFont);
+    text-align: center;
+}
