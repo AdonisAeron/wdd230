@@ -15,9 +15,27 @@
     --pFont: 'PT Sans', sans-serif, arial;
 }
 
+
+
+header {
+    display: flex;
+    background-color: var(--maincolor);
+    color: var(--mainTColor);
+    grid-column: 1 / 5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
 header a {
     width: 30px;
     height: 30px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
 
 body {
@@ -43,7 +61,8 @@ nav {
 }
 
 main div {
-    background: #999;
+    background-color: var(--sMainColor);
+    color: white;
     height: 200px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     margin: 20px 5px 0 5px;
@@ -51,6 +70,11 @@ main div {
 
 main div p {
     margin: .2rem 2vw;
+}
+
+main div h1 {
+    color: var(--secondarycolor);
+    text-shadow: 0 0 20px;
 }
 
 .mContent {
@@ -63,28 +87,177 @@ main div p {
 .action {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
+    position: relative;
+}
+
+.hImg {
+    width: 100%;
+    height: 200px;
+}
+
+.hBtn {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    background-color: var(--maincolor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+}
+
+.hBtn:hover {
+    cursor: pointer;
 }
 
 .event {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.event a{
+    text-decoration: none;
+    color: var(--secondarycolor);
+    border-radius: 10px;
 }
 
 .weather {
+    position: relative;
     grid-column: 1 / 5;
     grid-row: 4 / 5;
+    height: 400px;
+    padding: 10px;
+}
+
+.weather h1 {
+    text-align: center;
+}
+
+.weather img {
+    position: absolute;
+    max-width: 200px;
+}
+
+.Temp {
+    position: absolute;
+    font-size: 80px;
+    right: 30px;
+}
+
+.clouds {
+    position: absolute;
+    font-size: 40px;
+    right: 20px;
+    bottom: 130px;
+}
+
+.wSection {
+    position: absolute;
+    bottom: 5%;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    border-top: 1px dashed white;
 }
 
 .news {
     grid-column: 1 / 5;
     grid-row: 6 / 7;
+    position: relative;
+    text-align: center;
+}
+
+.news a{
+    text-decoration: none;
+    color: var(--secondarycolor);
+    border-radius: 10px;
 }
 
 .spotlight {
     grid-column: 1 / 5;
     grid-row: 8 / 9;
-    height: 470px;
+    height: 900px;
     margin-bottom: 20px;
+}
+
+.SptOne {
+    position: relative;
+    height: 420px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.SptOne h1 {
+    text-align: center;
+}
+
+.SptOne img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 200px;
+}
+
+.Quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-26%, 200%);
+    width: 100%;
+}
+
+.s1Section {
+    position: absolute;
+    border-top: 1px dotted white;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+}
+
+.s1Section a {
+    text-decoration: none;
+    color: var(--secondarycolor);
+}
+
+.SptTwo {
+    position: relative;
+    height: 420px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.SptTwo h1 {
+    text-align: center;
+}
+
+.SptTwo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 200px;
+}
+
+.qTwo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, 200%);
+    width: 100%;
+}
+
+.s2Section {
+    position: absolute;
+    border-top: 1px dotted white;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+}
+
+.s2Section a {
+    text-decoration: none;
+    color: var(--secondarycolor);
 }
 
 .join {
@@ -130,26 +303,18 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    --d: 75%;
 }
 
 .lThree {
     grid-column: 1 / 5;
     grid-row: 2 / 4;
     width: 100%;
-}
-
-header {
-    display: flex;
-    background-color: var(--maincolor);
-    color: var(--mainTColor);
-    grid-column: 1 / 5;
-    justify-content: center;
-    align-content: center;
 }
 
 table, th, td{
