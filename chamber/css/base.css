@@ -273,7 +273,7 @@ nav button {
 }
 
 #hamburgerBtn {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
