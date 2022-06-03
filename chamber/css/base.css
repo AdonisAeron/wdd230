@@ -372,7 +372,7 @@ footer a {
     display: flex;
     max-width: 600px;
     height: 99%;
-    padding: 0 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
     grid-column: 1 / 5;
     grid-row: 6 / 7;
     flex-direction: column;
