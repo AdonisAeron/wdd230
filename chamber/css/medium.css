@@ -131,6 +131,10 @@
         grid-row: 1 / 6;
     }
 
+    .gallary img:hover {
+        box-shadow: 0 0 6px 5px #c8d434;
+    }
+
     .economy {
         grid-column: 2 / 5;
         height: auto;
@@ -158,10 +162,6 @@
 
     .dPara {
         font-size: 18px;
-    }
-
-    .gallary img:hover {
-        box-shadow: 0 0 6px 5px #c8d434;
     }
 
     .dLink {
