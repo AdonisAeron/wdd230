@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --mainColor: rgba(127,185,194,255); 
+    --secColor: rgba(98,140,166,255);
+    --bgOne: rgba(231,240,237,255);
+    --bgTow: rgba(231,255,237,255);
+    --shadow: rgba(108,147,171,255);
+    --allFonts:'Ubuntu', sans-serif;;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid #222;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 15px var(--shadow);
+}
+
+tr:first-child th {
+    background: var(--mainColor);
+    color: black;
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 1px solid #222;
+    text-align: center;
+    font-family: var(--allFonts);
+}
+
+th, .spec {
+    background-color: var(--secColor);
+    color: aliceblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--bgOne);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--bgTow);
+}
