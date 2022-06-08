@@ -21,6 +21,10 @@ tr:first-child th {
     color: black;
 }
 
+thead tr:first-child th {
+    font-size: 27px;
+}
+
 th, td {
     padding: 10px 20px;
     border: 1px solid #222;
