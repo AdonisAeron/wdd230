@@ -524,3 +524,22 @@ form label.top input:required {
 form label.top input:required:valid {
     box-shadow: none;
 }
+
+/* Start of Thank */
+
+.tHeader {
+    grid-column: 1 / 5;
+    height: 70vh;
+    justify-content: center;
+}
+
+.tHeader h1 {
+    text-align: left;
+    text-justify: center;
+    margin: 5px 20px;
+    font-size: 50px;
+}
+
+.tHeader p {
+    font-size: 30px;
+}
