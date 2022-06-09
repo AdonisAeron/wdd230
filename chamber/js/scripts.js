@@ -3,7 +3,6 @@ let cMs = Date.now();
 let mDate = document.lastModified;
 const datefield = document.querySelector(".date");
 const fulldate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(d);
-const hDate = document.querySelector(".jHidden");
 const myHeader = document.getElementById("myHeader");
 cDay = d.getDay()
 const images = document.querySelectorAll("img[data-src]");
@@ -50,7 +49,6 @@ images.forEach(image => {
     imgObserver.observe(image);
 });
 
-hDate.innerHTML = `<h1>${d}</h1>`
 datefield.innerHTML = `<em>${fulldate}</em>`;
 document.getElementById("hamburgerBtn").addEventListener("click", toggleMenu);
 document.querySelector('.fText').textContent = nfooter;
