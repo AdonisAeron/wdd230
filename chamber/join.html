@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>SPTG Events</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A chamber of commerce website designed for Spartanburg, SC with an emphasis on local events.">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script src="js/scripts.js" defer></script>
+    </head>
+
+    <body>
+
+        <header id="myHeader">
+            <img class="logo" src="images/logo.png" alt="The logo for SPTG Events">
+            <h1 class="pName">Spartanburg Events</h1>
+            <a href="facebook.com"><img src="images/Facebook Icon.png" alt="Facebook icon"></a>
+            <a href="linkedin.com"><img src="images/Linkedin icon.png" alt="Linkedin Icon"></a>
+            <div class="break"></div>
+        </header>
+
+        <main>
+            <nav class="lThree">
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="join.html">Join</a></li>
+                    <li><a href="">Typography</a></li>
+                </ul>
+            </nav>
+
+            <div class="date"></div>
+
+            <section class="mContent">
+                <div class="jHeader">
+                    
+                    <h1>Join our commerce</h1>
+                
+                    <form method="get" action="thankyou.html">
+                
+                        <fieldset>
+                            <legend>Sign-Up Information</legend>
+                            <label class="top">First name* <input type="text" name="fname" required></label> 
+                            <label class="top">Last name* <input type="text" name="lname" required></label> 
+                            <label class="top">Your Internal Position <input type="title" name="title" pattern="[a-zA-Z0-9\s]" minlength="7"></label> 
+                            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label> 
+                            <label class="top">Phone* <input type="tel" name="phone" required></label> 
+                            <label class="top">Buisness name* <input type="text" name="busName" required></label> 
+                            <label class="top">Buisness Description <input type="text" name="description"></label>
+                        </fieldset>
+                
+                        <fieldset class="jSpecial">
+                            <legend>Membership Options</legend>
+                            <label class="sbs"><input type="radio" name="membership" value="nonprofit" required> NP Membership</label>
+                            <label class="sbs"><input type="radio" name="membership" value="bronze" required> Bronze Membership</label>
+                            <label class="sbs"><input type="radio" name="membership" value="silver" required> Silver Membership</label>
+                            <label class="sbs"><input type="radio" name="membership" value="gold" required> Gold Membership</label>
+                
+                            <div class="jBenefits">
+                                <h1>Benefits & Costs</h1>
+                                <p>
+                                    NP Membership - FREE<br>You will recieve access to group trainings and documents!<br><br>
+                                    Bronze Membership - $5<br>You will recieve one on one trainings plus previous benefits!<br><br>
+                                    Silver Membership - $10<br>You will recieve homepage advertising plus previous benefits!<br><br>
+                                    Gold Membership - $15<br>You will recieve discounts on event fees plus previous benefits!<br>
+                                </p>
+                            </div>
+
+                            <div class="jHidden">
+                                <h1></h1>
+                            </div>
+                        </fieldset>
+                        
+                        <input type="submit" value="Submit My Company" class="submitBtn"> 
+
+                
+                    </form>
+                
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="fInfo">
+                <img class="fLogo" src="images/logo.png" alt="Logo for SPTG Events">
+                <p class="fName">Spartanburg Chamber of Commerce</p>
+                <p class="fAddress">105 N Pine St, Spartanburg, SC 29302</p>
+                <p class="eAddress">info@spartanburgchamber.com</p>
+                <p class="pNum">(864) 594-5000</p>
+                <a href="https://www.google.com/maps/place/OneSpartanburg,+Inc./@34.9538266,-81.921178,15z/data=!4m5!3m4!1s0x0:0x9cdae33f2cc957b!8m2!3d34.9538266!4d-81.921178">Map View</a>
+            </div>
+            <p class="fText">&copy; Spartanburg Chamber | Trevor C. Jones | WDD 230 Project | Last Modified: </p>
+        </footer>
+
+    </body>
+
+</html>
