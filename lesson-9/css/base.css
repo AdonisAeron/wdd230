@@ -37,8 +37,8 @@ h1 {
 
 h2 {
   color: var(--secondarycolor);
-  margin: 0;
   font-family: var(--hFont);
+  margin-bottom: 20px;
 }
 
 main {
@@ -61,7 +61,7 @@ section {
 }
 
 section p {
-  min-height: 60px;
+  margin-bottom: 15px;
   color: var(--mainTColor);
 }
 
