@@ -543,3 +543,31 @@ form label.top input:required:valid {
 .tHeader p {
     font-size: 30px;
 }
+
+/* Start of Directory */
+
+.bButtons {
+    grid-column: 1 / 5;
+    width: 100%;
+    max-width: 600px;
+    height: 80px;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bButtons button {
+    background: rgba(0, 0, 0, 0.4);
+    width: 20%;
+    height: 50%;
+    border: none;
+    color: var(--mainTColor);
+    margin: 5px;
+}
+
+.buisnesses {
+    grid-column: 1 / 5;
+    height: auto;
+}
