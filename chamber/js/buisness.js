@@ -50,13 +50,11 @@ function displayBusiness(business) {
 };
 
 gBtn.addEventListener('click', () => {
-    console.log("Grid Test");
     busi.classList.add("grid");
     busi.classList.remove("list");
 });
 
 lBtn.addEventListener('click', () => {
-    console.log("List test");
     busi.classList.add("list");
     busi.classList.remove("grid");
 });
