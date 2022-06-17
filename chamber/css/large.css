@@ -168,4 +168,10 @@
         font-size: 27px;
     }
 
+    /* Start of Directory */
+
+    .list section p.bNum {
+        display: block;
+    }
+
 }

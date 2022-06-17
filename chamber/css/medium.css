@@ -181,4 +181,10 @@
         background: rgba(199, 212, 52, .7);
     }
 
+    /* Start of Directory */
+
+    .list section p.bAddr {
+        display: block;
+    }
+
 }

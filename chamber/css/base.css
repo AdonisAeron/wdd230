@@ -570,12 +570,16 @@ form label.top input:required:valid {
 .buisnesses {
     grid-column: 1 / 5;
     height: auto;
+    padding-bottom: 10px;
+}
+
+.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
 }
 
-.buisnesses section {
+.grid section {
     margin: 25px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 15px;
@@ -585,15 +589,49 @@ form label.top input:required:valid {
     box-shadow: 0px 0px 6px 5px var(--maincolor);
 }
 
-.buisnesses * {
+.grid * {
     margin: 5px;
 }
 
-.buisnesses img {
+.grid img {
     height: 100px;
     max-width: 100%;
 }
 
-.buisnesses a {
+.grid a {
     font-size: 14px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 4px 0px;
+}
+
+.list section h1 {
+    font-size: 16px;
+    text-shadow: none;
+    color: var(--mainTColor);
+}
+
+.list section p {
+    display: none;
+}
+
+.list section * {
+    margin: 0 12px;
+    text-align: left;
+}
+
+.list section img {
+    display: none;
 }

@@ -1,5 +1,7 @@
 const requestURL = "https://adonisaeron.github.io/wdd230/chamber/data.json";
 const busi = document.querySelector(".buisnesses");
+const gBtn = document.querySelector(".gBtn");
+const lBtn = document.querySelector(".lBtn");
 
 fetch(requestURL)
     .then(function (response) {
@@ -21,10 +23,14 @@ function displayBusiness(business) {
     img.setAttribute('src', business.imageurl);
     img.setAttribute('alt', `${business.name} Logo`);
     img.setAttribute('loading', 'lazy');
+    img.classList.add("bImg");
 
     name.textContent = business.name;
+    name.classList.add("bName");
     Addr.textContent = business.address;
+    Addr.classList.add("bAddr");
     pNum.textContent = business.pNumber;
+    pNum.classList.add("bNum");
     website.textContent = business.website;
 
     if(business.website == "N/A") {
@@ -32,6 +38,7 @@ function displayBusiness(business) {
     };
 
     website.setAttribute('href', business.website);
+    website.classList.add("bWeb");
 
     card.appendChild(img);
     card.appendChild(name);
@@ -41,3 +48,13 @@ function displayBusiness(business) {
 
     document.querySelector("div.buisnesses").appendChild(card);
 };
+
+gBtn.addEventListener('click', () => {
+    busi.classList.add("grid");
+    busi.classList.remove("list");
+});
+
+lBtn.addEventListener('click', () => {
+    busi.classList.add("list");
+    busi.classList.remove("grid");
+});
