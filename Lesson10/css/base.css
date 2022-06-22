@@ -4,7 +4,7 @@ body div {
     margin: 20px auto;
     border: 1px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     background-color: #A18594;
@@ -24,16 +24,16 @@ div h2 {
     background-color: #618985;
     width: 100%;
     text-align: center;
-    margin-bottom: 0;
+    margin-top: 0;
 }
 
 div figure {
     display: inherit;
-    flex-direction: column;
+    flex-direction: column-reverse;
     background-color: #618985;
     width: 100%;
     align-items: center;
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 div figure img {
