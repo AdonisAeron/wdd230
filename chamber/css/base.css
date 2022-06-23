@@ -155,7 +155,7 @@ main div h1 {
 
 .weather img {
     position: absolute;
-    max-width: 200px;
+    width: 200px;
 }
 
 .Temp {
