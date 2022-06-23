@@ -4,7 +4,7 @@ const captionDesc = document.querySelector('.clouds');
 const windSpeed = document.querySelector(".wSpeed");
 const clTemp = document.querySelector(".Temp");
 const windChill = document.querySelector(".wChill");
-const requestUrl = "https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=ec9e25a5242ce0422f6c28f2f6bbd926"
+const requestUrl = "https://api.openweathermap.org/data/2.5/weather?q=Spartanburg&units=imperial&appid=ec9e25a5242ce0422f6c28f2f6bbd926"
 
 async function apiFetch() {
     try {
