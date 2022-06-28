@@ -535,7 +535,6 @@ form label.top input:required:valid {
 
 .tHeader h1 {
     text-align: left;
-    text-justify: center;
     margin: 5px 20px;
     font-size: 50px;
 }

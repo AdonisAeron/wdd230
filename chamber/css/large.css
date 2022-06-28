@@ -42,7 +42,7 @@
     }
 
     .weather img {
-        display: default;
+        display: block;
     }
 
     .Temp {
