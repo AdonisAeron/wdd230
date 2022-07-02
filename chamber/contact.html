@@ -10,9 +10,7 @@
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <script src="js/weatherapi.js" defer></script>
         <script src="js/scripts.js" defer></script>
-        <script src="js/spotlight.js" defer></script>
     </head>
 
     <body>
@@ -29,51 +27,48 @@
             <nav class="lThree">
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="directory.html">Directory</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
 
             <div class="date"></div>
 
             <section class="mContent">
-                <div class="action">
-                    <button class="hBtn">Join our chamber</button>
-                    <img class="hImg" src="images/hero.jpg" alt="Image of a statue in downtown spartanburg">
+                <div class="cForum">
+
+                    <form method="get" action="thankyou.html">
+
+                        <fieldset class="contact">
+                            <legend>Contact Us</legend>
+                            <label class="top">First name* <input type="text" name="fname" required></label> 
+                            <label class="top">Last name <input type="text" name="lname"></label> 
+                            <label class="top">Email* <input type="eamil" name="email" placeholder="someone@gmail.com" required></label>
+                            <label class="top">Concern* <input  type="text" name="concern" placeholder="Concerns go here" required></label>
+                            <label class="top">Affiliation <input type="text" name="affiliation" placeholder="Customer"></label>
+                            <label class="top">Referal <input type="text" name="rname" placeholder="Who refered you"></label>
+                        </fieldset>
+
+                        <input type="submit" value="Send my concern" class="submitBtn">
+
+                    </form>
+
                 </div>
-                <div class="event">
-                    <h1>Meet and Greet</h1>
-                    <p>Hub City Bookshop and Press</p>
-                    <p>Join us for an autor meet and greet at the Hub City Bookshop and Press, Saturday at 3:00 pm.</p>
-                    <a href="">More Info...</a>
+                <div class="cInfo">
+                    <h1>Contact info</h1>
+                    <p>Hours of Operation: 8AM - 5PM</p>
+                    <p>Phone Number: (864) 594-5000</p>
+                    <h1>Points of Contact</h1>
+                    <p>John Smithen | CEO</p>
+                    <p>Work Line: (864) 999-9999</p>
+                    <p><br>Richard Jacker | Human Resources</p>
+                    <p>Work Line: (864) 888-8888</p>
                 </div>
-                <div class="weather">
-                    <h1>Weather</h1>
-                    <img class="wImage" src="images/wether.png">
-                    <p class="Temp">28&deg;C</p>
-                    <p class="clouds">Partly Cloudy</p>
-                    <section class="wSection">
-                        <p>Wind Speed: <span class="wSpeed"></span></p>
-                        <p>Wind Chill: <span class="wChill">N/A</span></p>
-                    </section>
-                </div>
-                <div class="news">
-                    <h1>News Release</h1>
-                    <p>Yesterday was a record high for that day, this is an opportune time to remind everyone about how to
-                        deal with heat. Remember to leave nothing in the car as it can get up to 120 degrees, even in the shade.
-                        Also be on the lookout for anyone who seems to be having a heat stroke. <a href="">Continue....</a>
-                    </p>
-                </div>
-                <div class="spotlight">
-                </div>
-                <div class="join">
-                    <a href="">Join our chamber today!</a>
-                    <p>Come find out why you should join our chamber of commerce!</p>
-                </div>
-             </section>
+
+            </section>
         </main>
 
         <footer>
