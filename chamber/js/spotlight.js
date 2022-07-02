@@ -36,7 +36,7 @@ function displayBusiness(business) {
 
         } else {
 
-            lTwo.innerHTML = `${business.pNumber} | <a href="${business.website}">Website</a>`;
+            lTwo.innerHTML = `${business.pNumber} | <a href="${business.website}" target="_blank">Website</a>`;
         };
 
         footer.appendChild(lOne);
@@ -48,13 +48,6 @@ function displayBusiness(business) {
         document.querySelector("div.spotlight").appendChild(card);
     }
 };
-
-//"name": "A Business Law Firm LLC",
-//"address": "1989 S Pine St, Spartanburg, SC 29302",
-//"pNumber": "(864) 699-9801",
-//"website": "https://www.abizlaw.com/",
-//"membership": "gold",
-//"imageurl": "https://cp7.cpasitesolutions.com/~abizlawc/images/biz-law-logo.png"
 
 function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {

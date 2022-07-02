@@ -38,6 +38,7 @@ function displayBusiness(business) {
     };
 
     website.setAttribute('href', business.website);
+    website.setAttribute('target', "_blank")
     website.classList.add("bWeb");
 
     card.appendChild(img);
