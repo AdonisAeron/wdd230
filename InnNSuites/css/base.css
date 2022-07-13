@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+:root {
+    --mColor: #0D3B66;
+    --sColor: #3FC6DA;
+    --sHighlight: #AFAAB9;
+    --gHighlight: #CC9316;
+    --hgHighlight: #2DD881;
+    --lgHighlight: #ACF39D;
+    --mFonts: 'Open Sans', 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#mHeader {
+    background-color: var(--mColor);
+    font-family: var(--mFonts);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#hBurgerBtn {
+    border: none;
+    background-color: var(--gHighlight);
+    border-radius: 50%;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*padding: 8px 8px;*/
+
+#hBurgerBtn span:nth-child(1) {display: block; padding: 8px 5px;}
+#hBurgerBtn span:nth-child(2) {display: none;}
+
+#hBurgerBtn:hover {
+    background-color: #ad7c13;
+}
+
+#mHeader a {
+    max-width: 40px;
+}
+
+#mHeader h1 {
+    color: silver;
+}
+
+.mLogo {
+    display: none;
+}
+
+.content {
+    margin: 10px 5px;
+    background-color: silver;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sHeroImg {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+}
+
+.mReserve {
+    border: 2px solid rgba(0, 0, 0, .5);
+    margin: 10px 8px;
+    border-radius: 10px;
+    background-color: var(--sColor);
+    padding: 20px 0;
+    max-width: 100%;
+    cursor: pointer;
+    grid-row: 2 / 3;
+    grid-column: 1 / 6;
+    font-weight: 800;
+    font-family: var(--mFonts);
+}
+
+.mReserve:hover {
+    background-color: #2f95a5;
+}
+
+.about-us {
+    grid-row: 3 / 4;
+    grid-column: 1 / 6;
+}
+
+.tInfo {
+    grid-row: 4 / 5;
+    grid-column: 1 / 6;
+}
+
+.bContact {
+    grid-row: 5 / 6;
+    grid-column: 1 / 6;
+}
+
+.cWeather {
+    grid-row: 6 / 7;
+    grid-column: 1 / 6;
+}
+
+.dForcast {
+    grid-row: 7 / 8;
+    grid-column: 1 / 6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: var(--mColor);
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fContact {
+    background-color: var(--sHighlight);
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
