@@ -14,6 +14,22 @@ img {
     max-width: 100%;
 }
 
+div {
+    margin: 15px 5px;
+    background-color: var(--mColor);
+}
+
+h1 {
+    text-align: center;
+    background-color: var(--sHighlight);
+    margin: 5px;
+}
+
+p {
+    color: rgb(218, 218, 218);
+    text-align: center;
+}
+
 #mHeader {
     background-color: var(--mColor);
     font-family: var(--mFonts);
@@ -23,7 +39,11 @@ img {
     align-items: center;
 }
 
-#hBurgerBtn {
+#mHeader h1 {
+    background-color: transparent;
+}
+
+#hamburgerBtn {
     border: none;
     background-color: var(--gHighlight);
     border-radius: 50%;
@@ -31,12 +51,71 @@ img {
     cursor: pointer;
 }
 
-/*padding: 8px 8px;*/
+.eList {
+    background-color: var(--gHighlight);
+    display: none;
+    flex-direction: row;
+}
 
-#hBurgerBtn span:nth-child(1) {display: block; padding: 8px 5px;}
-#hBurgerBtn span:nth-child(2) {display: none;}
+.eList.open {
+    display: flex;
+}
 
-#hBurgerBtn:hover {
+.eList p {
+    text-align: left;
+}
+
+.eList button {
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    justify-content: center;
+    display: none;
+    padding: 0px;
+    background: var(--mColor);
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: .8rem 2vw;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, var(--gHighlight), transparent) top /
+		var(--d, 0) 10px no-repeat;
+	transition: 0.5s;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    --d: 75%;
+}
+
+.lThree {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    width: 100%;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block; padding: 8px 5px;}
+#hamburgerBtn span:nth-child(2) {display: none; padding: 8px 8px;}
+
+#hamburgerBtn:hover {
     background-color: #ad7c13;
 }
 
@@ -46,10 +125,6 @@ img {
 
 #mHeader h1 {
     color: silver;
-}
-
-.mLogo {
-    display: none;
 }
 
 .content {
@@ -62,6 +137,12 @@ img {
 .sHeroImg {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
+}
+
+.heroImg {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    display: none;
 }
 
 .mReserve {
@@ -100,14 +181,50 @@ img {
 .cWeather {
     grid-row: 6 / 7;
     grid-column: 1 / 6;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+}
+
+.cTemp {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.cImg {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    margin: 0px auto;
+}
+
+.cHumid {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
 }
 
 .dForcast {
     grid-row: 7 / 8;
     grid-column: 1 / 6;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.dForcast div {
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+}
+
+.dForcast div img {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    margin: 0px auto;
+}
+
+.dForcast div p {
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
 }
 
 footer {
@@ -116,7 +233,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .fContact {
@@ -125,4 +242,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
+}
+
+.fContact p {
+    color: black;
 }
