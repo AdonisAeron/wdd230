@@ -294,7 +294,7 @@ form legend {
 form label, form div {
     display: block;
     padding-top: 20px;
-    color: var(--gHighlight);
+    color: #eeaa19;
     font-size: 17px;
     text-align: center;
 }
