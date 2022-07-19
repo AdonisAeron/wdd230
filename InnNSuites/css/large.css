@@ -76,4 +76,16 @@
         grid-row: 3 / 4;
     }
 
+    /* Start of Wedding */
+
+    .included-items {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .special-servicesW {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
 }

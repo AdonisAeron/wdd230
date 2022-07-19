@@ -67,4 +67,22 @@
         grid-column: 1 / 7;
     }
 
+    /* Start of Wedding */
+
+    .included-items {
+        grid-row: 3 / 4;
+        grid-column: 1 / 4;
+    }
+
+    .special-servicesW {
+        grid-row: 3 / 4;
+        grid-column: 4 / 7;
+    }
+
+    /* Start of Missionary */
+
+    .sHeroImgSuite {
+        display: none;
+    }
+
 }

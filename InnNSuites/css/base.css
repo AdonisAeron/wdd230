@@ -404,3 +404,33 @@ form input.submitBtn {
     grid-column: 3 / 5;
     background-color: var(--lgHighlight);
 }
+
+/* Start of Wedding hall */
+
+.included-items {
+    grid-row: 4 / 5;
+    grid-column: 1 / 6;
+    padding: 5px 10px;
+}
+
+.included-items li {
+    margin: 2px;
+}
+
+.special-servicesW {
+    grid-row: 6 / 7;
+    grid-column: 1 / 6;
+    padding: 5px 10px;
+}
+
+.special-servicesW li {
+    margin: 2px;
+}
+
+/* Start of missionary */
+
+.sHeroImgSuite {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    width: 100%;
+}
