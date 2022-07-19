@@ -85,4 +85,11 @@
         display: none;
     }
 
+    /* Start of Temples */
+
+    .templeDiv {
+        width: 700px;
+        grid-column: 1 / 7;
+    }
+
 }

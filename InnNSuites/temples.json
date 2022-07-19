@@ -4,7 +4,7 @@
             "address" : "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
             "telephone" : "(56) 22-340-5070",
             "services" : "Patron Housing",
-            "history" : "announced : 2 April 1980\ngroundbreaking : 30 May 1981\ndedicated : 15 September 1983\nrededicated : 12 March 2006",
+            "history" : "announced : 2 April 1980<br>groundbreaking : 30 May 1981<br>dedicated : 15 September 1983<br>rededicated : 12 March 2006",
             "session" : "4",
             "photo" : "https://assets.ldscdn.org/37/b2/37b2afce3517343c6813da32ffc13231fcdfae14/santiago_chile_lds_temple.jpeg" 
         },
@@ -12,7 +12,7 @@
             "address" : "2905 Trotter Rd Hopkins SC 29061-9573 United States",
             "telephone" : "(1) 803-647-9472",
             "services" : "Distribution Center Nearby",
-            "history" : "announced : 11 September 1998\ngroundbreaking : 5 December 1998\ndedicated : 16 October 1999",
+            "history" : "announced : 11 September 1998<br>groundbreaking : 5 December 1998<br>dedicated : 16 October 1999",
             "session" : "6",
             "photo" : "https://assets.ldscdn.org/28/ee/28ee5b55c48230a3a3e45c031062748c193a95f3/columbia_temple_lds.jpeg" 
         },
@@ -20,7 +20,7 @@
             "address" : "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
             "telephone" : "(1) 310-474-5569",
             "services" : "Patron Housing",
-            "history" : "announced : 6 March 1937\ngroundbreaking : 22 September 1951\ndedicated : 11 March 1956",
+            "history" : "announced : 6 March 1937<br>groundbreaking : 22 September 1951<br>dedicated : 11 March 1956",
             "session" : "2",
             "photo" : "https://assets.ldscdn.org/b8/97/b897f7ceadd50a8473ba62aa38e96d8bb62dcce9/los_angeles_temple_lds.jpg" 
         },
@@ -28,7 +28,7 @@
             "address" : "1450 Blvd Marie-Victorin Longueuil QC J4G 1A4 Canada",
             "telephone" : "(1) 450-646-5775",
             "services" : "Distribution Center Nearby",
-            "history" : "announced : 6 August 1998\ngroundbreaking : 9 April 1999\ndedicated : 4 June 2000\nrededicated : 22 November 2015",
+            "history" : "announced : 6 August 1998<br>groundbreaking : 9 April 1999<br>dedicated : 4 June 2000<br>rededicated : 22 November 2015",
             "session" : "10",
             "photo" : "https://assets.ldscdn.org/4d/ae/4dae263405245641c9c02d0136c58b31794fb4a4/montreal_quebec_temple_lds.jpeg" 
         }

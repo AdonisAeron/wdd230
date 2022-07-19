@@ -434,3 +434,27 @@ form input.submitBtn {
     grid-row: 1 / 2;
     width: 100%;
 }
+
+/* Start of Temples */
+
+.templeDiv {
+    width: 400px;
+    grid-column: 1 / 6;
+    margin: 4px auto;
+}
+
+.div2 {
+    grid-row: 1 / 2;
+}
+
+.div4 {
+    grid-row: 2 / 3;
+}
+
+.div6 {
+    grid-row: 3 / 4;
+}
+
+.div10 {
+    grid-row: 4 / 5;
+}
