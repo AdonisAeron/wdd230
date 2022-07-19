@@ -21,7 +21,7 @@ async function apiFetch() {
             throw Error(await response.text());
         }
      } catch (error) {
-        console.log(error)
+        console.log(error);
      }
          
 }
@@ -62,16 +62,26 @@ function displayResults(weatherData) {
 
     ThreePara.innerHTML = `Temp: <strong>${weatherData.daily[2].temp.day}</strong> | Humidity: <strong>${weatherData.daily[2].humidity}</strong>`;
 
-    let uTime = weatherData.alerts[0].end;
-    let date = new Date(uTime * 1000);
+    try {
+        let uTime = weatherData.alerts[0].end;
+        let date = new Date(uTime * 1000);
 
-    const hours = date.getHours();
-    const minutes = "0" + date.getMinutes();
-    const seconds = "0" + date.getSeconds();
+        const hours = date.getHours();
+        const minutes = "0" + date.getMinutes();
+        const seconds = "0" + date.getSeconds();
 
-    const formattedTime = hours + ":" + minutes.substring(-2) + ":" + seconds.substring(-2);
+        const formattedTime = hours + ":" + minutes.substring(-2) + ":" + seconds.substring(-2);
 
-    alerText.innerHTML = `There is a current ${weatherData.alerts[0].event} in this area until ${formattedTime}`
+        alerText.innerHTML = `There is a current ${weatherData.alerts[0].event} in this area until ${formattedTime}`
+    } catch (error) {
+        document.querySelector(".eList").classList.add("closed");
+    }
+}
+
+function closeAlert() {
+    console.log("Work2 Electric Boogaloo")
+    document.querySelector(".eList").classList.add("closed");
 }
 
 apiFetch();
+document.querySelector(".alertBtn").addEventListener('click', closeAlert);
