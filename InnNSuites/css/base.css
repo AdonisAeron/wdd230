@@ -266,3 +266,70 @@ footer {
 .fContact p {
     color: black;
 }
+
+/* Start of Reserve */
+
+.fContainer {
+    padding: 10px;
+}
+
+.fContainer h1 {
+    background-color: transparent;
+    color: var(--gHighlight);
+}
+
+form fieldset {
+    margin: 20px;
+    border: 2px solid var(--gHighlight);
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+form legend {
+    color: var(--gHighlight);
+    margin: 0 10px;
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+form label, form div {
+    display: block;
+    padding-top: 20px;
+    color: var(--gHighlight);
+    font-size: 17px;
+    text-align: center;
+}
+
+form label input, form label select, form label textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, .1);
+    margin: 10px auto;
+}
+
+form label select {
+    margin-top: 20px;
+}
+
+form label select option {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+form label input:required {
+    box-shadow: 8px 0px 4px var(--hgHighlight);
+}
+
+form input.submitBtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: var(--gHighlight);
+    margin-left: auto;
+}
