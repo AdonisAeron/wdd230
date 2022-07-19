@@ -442,6 +442,22 @@ form input.submitBtn {
     margin: 4px auto;
 }
 
+.templeDiv.liked button {
+    background-color: pink;
+}
+
+.templeDiv button {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.templeDiv button:hover {
+    background-color: rgb(172, 172, 172);
+}
+
 .div2 {
     grid-row: 1 / 2;
 }
