@@ -4,20 +4,7 @@
             "address" : "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
             "telephone" : "(56) 22-340-5070",
             "services" : "Patron Housing",
-            "history" : 
-            {
-                "announced" : "2 April 1980",
-                "groundbreaking" : "30 May 1981",
-                "dedicated" : "15 September 1983",
-                "rededicated" : "12 March 2006"
-            },
-            "ordinance" : 
-            {
-                "0" : "Proxy Baptism",
-                "1" : "Proxy initiatory",
-                "2" : "Proxy Endowment",
-                "3" : "Proxy Sealing"
-            },
+            "history" : "announced : 2 April 1980\ngroundbreaking : 30 May 1981\ndedicated : 15 September 1983\nrededicated : 12 March 2006",
             "session" : "4",
             "closure" : 
             {
@@ -30,19 +17,7 @@
             "address" : "2905 Trotter Rd Hopkins SC 29061-9573 United States",
             "telephone" : "(1) 803-647-9472",
             "services" : "Distribution Center Nearby",
-            "history" : 
-            {
-                "announced" : "11 September 1998",
-                "groundbreaking" : "5 December 1998",
-                "dedicated" : "16 October 1999"
-            },
-            "ordinance" : 
-            {
-                "0" : "Proxy Baptism",
-                "1" : "Proxy initiatory",
-                "2" : "Proxy Endowment",
-                "3" : "Proxy Sealing"
-            },
+            "history" : "announced : 11 September 1998\ngroundbreaking : 5 December 1998\ndedicated : 16 October 1999",
             "session" : "6",
             "closure" : 
             {
@@ -55,19 +30,7 @@
             "address" : "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
             "telephone" : "(1) 310-474-5569",
             "services" : "Patron Housing",
-            "history" : 
-            {
-                "announced" : "6 March 1937",
-                "groundbreaking" : "22 September 1951",
-                "dedicated" : "11 March 1956"
-            },
-            "ordinance" : 
-            {
-                "0" : "Proxy Baptism",
-                "1" : "Proxy initiatory",
-                "2" : "Proxy Endowment",
-                "3" : "Proxy Sealing"
-            },
+            "history" : "announced : 6 March 1937\ngroundbreaking : 22 September 1951\ndedicated : 11 March 1956",
             "session" : "2",
             "closure" : 
             {
@@ -80,20 +43,7 @@
             "address" : "1450 Blvd Marie-Victorin Longueuil QC J4G 1A4 Canada",
             "telephone" : "(1) 450-646-5775",
             "services" : "Distribution Center Nearby",
-            "history" : 
-            {
-                "announced" : "6 August 1998",
-                "groundbreaking" : "9 April 1999",
-                "dedicated" : "4 June 2000",
-                "rededicated" : "22 November 2015"
-            },
-            "ordinance" : 
-            {
-                "0" : "Proxy Baptism",
-                "1" : "Proxy initiatory",
-                "2" : "Proxy Endowment",
-                "3" : "Proxy Sealing"
-            },
+            "history" : "announced : 6 August 1998\ngroundbreaking : 9 April 1999\ndedicated : 4 June 2000\nrededicated : 22 November 2015",
             "session" : "10",
             "closure" : 
             {
