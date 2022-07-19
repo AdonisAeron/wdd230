@@ -1,0 +1,106 @@
+{
+    "Temples" : [
+        {
+            "address" : "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
+            "telephone" : "(56) 22-340-5070",
+            "services" : "Patron Housing",
+            "history" : 
+            {
+                "announced" : "2 April 1980",
+                "groundbreaking" : "30 May 1981",
+                "dedicated" : "15 September 1983",
+                "rededicated" : "12 March 2006"
+            },
+            "ordinance" : 
+            {
+                "0" : "Proxy Baptism",
+                "1" : "Proxy initiatory",
+                "2" : "Proxy Endowment",
+                "3" : "Proxy Sealing"
+            },
+            "session" : "4",
+            "closure" : 
+            {
+                "2022" : "Five",
+                "2023" : "Seven"
+            },
+            "photo" : "https://assets.ldscdn.org/37/b2/37b2afce3517343c6813da32ffc13231fcdfae14/santiago_chile_lds_temple.jpeg" 
+        },
+        {
+            "address" : "2905 Trotter Rd Hopkins SC 29061-9573 United States",
+            "telephone" : "(1) 803-647-9472",
+            "services" : "Distribution Center Nearby",
+            "history" : 
+            {
+                "announced" : "11 September 1998",
+                "groundbreaking" : "5 December 1998",
+                "dedicated" : "16 October 1999"
+            },
+            "ordinance" : 
+            {
+                "0" : "Proxy Baptism",
+                "1" : "Proxy initiatory",
+                "2" : "Proxy Endowment",
+                "3" : "Proxy Sealing"
+            },
+            "session" : "6",
+            "closure" : 
+            {
+                "2022" : "Six",
+                "2023" : "One"
+            },
+            "photo" : "https://assets.ldscdn.org/28/ee/28ee5b55c48230a3a3e45c031062748c193a95f3/columbia_temple_lds.jpeg" 
+        },
+        {
+            "address" : "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
+            "telephone" : "(1) 310-474-5569",
+            "services" : "Patron Housing",
+            "history" : 
+            {
+                "announced" : "6 March 1937",
+                "groundbreaking" : "22 September 1951",
+                "dedicated" : "11 March 1956"
+            },
+            "ordinance" : 
+            {
+                "0" : "Proxy Baptism",
+                "1" : "Proxy initiatory",
+                "2" : "Proxy Endowment",
+                "3" : "Proxy Sealing"
+            },
+            "session" : "2",
+            "closure" : 
+            {
+                "2022" : "Five",
+                "2023" : "Six"
+            },
+            "photo" : "https://assets.ldscdn.org/b8/97/b897f7ceadd50a8473ba62aa38e96d8bb62dcce9/los_angeles_temple_lds.jpg" 
+        },
+        {
+            "address" : "1450 Blvd Marie-Victorin Longueuil QC J4G 1A4 Canada",
+            "telephone" : "(1) 450-646-5775",
+            "services" : "Distribution Center Nearby",
+            "history" : 
+            {
+                "announced" : "6 August 1998",
+                "groundbreaking" : "9 April 1999",
+                "dedicated" : "4 June 2000",
+                "rededicated" : "22 November 2015"
+            },
+            "ordinance" : 
+            {
+                "0" : "Proxy Baptism",
+                "1" : "Proxy initiatory",
+                "2" : "Proxy Endowment",
+                "3" : "Proxy Sealing"
+            },
+            "session" : "10",
+            "closure" : 
+            {
+                "2022" : "One",
+                "2023" : "Two"
+            },
+            "photo" : "https://assets.ldscdn.org/4d/ae/4dae263405245641c9c02d0136c58b31794fb4a4/montreal_quebec_temple_lds.jpeg" 
+        }
+    ]
+}
