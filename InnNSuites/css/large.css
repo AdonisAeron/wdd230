@@ -1,5 +1,27 @@
 @media only screen and (min-width: 85.5em) {
 
+    nav ul#primaryNav {
+        display: flex;
+        border-left: 1px solid rgba(0, 0, 0, .5);
+        margin-top: 0px;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+    nav ul li a {
+        border-right: 1px solid rgba(0, 0, 0, .5);
+    }
+
     .heroImg {
         grid-column: 3 / 7;
         grid-row: 1 / 4;
