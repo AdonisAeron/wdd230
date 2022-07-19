@@ -59,4 +59,21 @@
         grid-row: 4 / 5;
     }
 
+    /* Start of Services */
+
+    .about-services {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    .amenities {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .special-services {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+
 }
