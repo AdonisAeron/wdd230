@@ -53,22 +53,31 @@ p {
 
 .eList {
     background-color: var(--gHighlight);
-    display: none;
+    display: flex;
     flex-direction: row;
 }
 
-.eList.open {
-    display: flex;
+.eList.closed {
+    display: none;
 }
 
 .eList p {
     text-align: left;
+    color: black;
+    padding-left: 5px;
 }
 
 .eList button {
     border: none;
     background-color: transparent;
     margin-left: auto;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.eList button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav ul {

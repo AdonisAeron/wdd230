@@ -7,6 +7,7 @@ const TwoImg = document.querySelector(".dTwo-Img");
 const TwoPara = document.querySelector(".dTwo-p");
 const ThreeImg = document.querySelector(".dThree-Img");
 const ThreePara = document.querySelector(".dThree-p");
+const alerText = document.querySelector(".eText");
 const requestUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&exclude=minutely,hourly&appid=ec9e25a5242ce0422f6c28f2f6bbd926";
 
 async function apiFetch() {
@@ -60,6 +61,17 @@ function displayResults(weatherData) {
     ThreeImg.setAttribute('alt', hDesc);
 
     ThreePara.innerHTML = `Temp: <strong>${weatherData.daily[2].temp.day}</strong> | Humidity: <strong>${weatherData.daily[2].humidity}</strong>`;
+
+    let uTime = weatherData.alerts[0].end;
+    let date = new Date(uTime * 1000);
+
+    const hours = date.getHours();
+    const minutes = "0" + date.getMinutes();
+    const seconds = "0" + date.getSeconds();
+
+    const formattedTime = hours + ":" + minutes.substring(-2) + ":" + seconds.substring(-2);
+
+    alerText.innerHTML = `There is a current ${weatherData.alerts[0].event} in this area until ${formattedTime}`
 }
 
 apiFetch();
