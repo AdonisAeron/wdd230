@@ -57,7 +57,7 @@ function displayTemples(temples) {
     Addr.textContent = `Address: ${temples.address}`;
     sessions.textContent = `Active Sessions: ${temples.session}`;
     history.innerHTML = temples.history;
-    service.textContent = `Active Services: ${temples.services}`;
+    service.innerHTML = `Active Services: ${temples.services}`;
     like.textContent = "like";
     like.classList.add(`.btn${temples.session}`);
     like.addEventListener('click', likeCard);
