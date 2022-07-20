@@ -321,8 +321,12 @@ form label select option {
     background-color: rgba(0, 0, 0, .5);
 }
 
-form label input:required {
+form label input:required, form label select:required {
     box-shadow: 8px 0px 4px var(--hgHighlight);
+}
+
+form label input:required:valid, form label select:required:valid {
+    box-shadow: none;
 }
 
 form input.submitBtn {
