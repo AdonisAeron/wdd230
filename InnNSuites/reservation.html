@@ -41,20 +41,20 @@
 
                     <fieldset>
                         <legend>Reservation Information</legend>
-                        <label>Full Name* <input type="text" name="name" autocomplete="name" required></label>
-                        <label>Email* <input type="email" name="email" autocomplete="email" required></label>
-                        <label>Phone Number <input type="tel" name="phone" autocomplete="tel-national" required></label>
-                        <label>Location* <input type="street-address" name="street-address" autocomplete="street-address" required></label>
+                        <label>Full Name* <input type="text" name="name" required></label>
+                        <label>Email* <input type="email" name="email" required></label>
+                        <label>Phone Number <input type="tel" name="tel-national"required></label>
+                        <label>Location* <input type="text" name="street-address" required></label>
                         <label>Date* <input type="date" name="date" required></label>
-                        <label>Number of Rooms & type* <input type="number" min="1" max="10" name="nbRooms" required> 
-                            <select name="rType" id="room-select">
+                        <label>Number of Rooms* <input type="number" min="1" max="10" name="nbRooms" required></label>
+                        <label>Room Type* 
+                            <select name="rType" id="room-select" required>
                                 <option value="">-- Please choose an Option --</option>
                                 <option value="reception">Reception Hall</option>
                                 <option value="short">Temple Patron Room</option>
                                 <option value="long">Temple Worker Suite</option>
-                            </select>
-                        </label>
-                        <label>State* <input type="address-level1" name="gState" autocomplete="address-level1" required></label>
+                            </select></label>
+                        <label>State* <input type="text" name="address-level1" required></label>
                         <label>Special Accomidations <textarea name="sAccom" cols="30" rows="10"></textarea></label>
                     </fieldset>
                         
