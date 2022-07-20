@@ -15,7 +15,6 @@ async function apiFetch() {
         const response = await fetch(requestUrl);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
@@ -79,7 +78,6 @@ function displayResults(weatherData) {
 }
 
 function closeAlert() {
-    console.log("Work2 Electric Boogaloo")
     document.querySelector(".eList").classList.add("closed");
 }
 
