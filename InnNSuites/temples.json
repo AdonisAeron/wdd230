@@ -2,6 +2,7 @@
     "Temples" : [
         {
             "address" : "Pocuro #1940 Providencia 6641404 Santiago Region Metropolitana (Santiago), Chile",
+            "name" : "Santiago Chile Temple",
             "telephone" : "(56) 22-340-5070",
             "ordinances" : "Proxy Baptism<br>Proxy Initiatory<br>Proxy Endowment<br>Proxy Sealing",
             "services" : "Patron Housing<br>Distribution center nearby",
@@ -12,6 +13,7 @@
         },
         {
             "address" : "2905 Trotter Rd Hopkins SC 29061-9573 United States",
+            "name" : "Columbia South Carolina Temple",
             "telephone" : "(1) 803-647-9472",
             "ordinances" : "Proxy Baptism<br>Proxy Initiatory<br>Proxy Endowment<br>Proxy Sealing",
             "services" : "Distribution Center Nearby",
@@ -22,6 +24,7 @@
         },
         {
             "address" : "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
+            "name" : "Los Angeles California Temple",
             "telephone" : "(1) 310-474-5569",
             "ordinances" : "Proxy Baptism<br>Proxy Initiatory<br>Proxy Endowment<br>Proxy Sealing",
             "services" : "Patron Housing<br>Distribution center nearby",
@@ -32,6 +35,7 @@
         },
         {
             "address" : "1450 Blvd Marie-Victorin Longueuil QC J4G 1A4 Canada",
+            "name" : "Montreal Quebec Temple",
             "telephone" : "(1) 450-646-5775",
             "ordinances" : "Proxy Baptism<br>Proxy Initiatory<br>Proxy Endowment<br>Proxy Sealing",
             "services" : "Distribution Center Nearby",

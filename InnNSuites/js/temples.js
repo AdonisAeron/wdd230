@@ -42,10 +42,13 @@ function displayTemples(temples) {
     let card = document.createElement('div');
     let img = document.createElement("img");
     let pNum = document.createElement("p");
+    let tName = document.createElement("p");
+    let closures = document.createElement("p");
     let Addr = document.createElement("p");
     let sessions = document.createElement("p");
     let service = document.createElement("p");
     let history = document.createElement("p");
+    let ordinances = document.createElement("p");
     let like = document.createElement("button");
 
     img.setAttribute('src', temples.photo);
@@ -53,20 +56,26 @@ function displayTemples(temples) {
     img.setAttribute('loading', 'lazy');
     img.classList.add("tImg");
 
+    tName.innerHTML = `${temples.name}`;
     pNum.textContent = `Phone Number: ${temples.telephone}`;
+    ordinances.innerHTML = `Availible Ordinances: <br>${temples.ordinances}`;
     Addr.textContent = `Address: ${temples.address}`;
-    sessions.textContent = `Active Sessions: ${temples.session}`;
+    sessions.textContent = `Monthly Sessions: ${temples.session}`;
     history.innerHTML = temples.history;
-    service.innerHTML = `Active Services: ${temples.services}`;
+    service.innerHTML = `Active Services: <br>${temples.services}`;
     like.textContent = "like";
     like.classList.add(`.btn${temples.session}`);
     like.addEventListener('click', likeCard);
+    closures.innerHTML = `Expected Closures: ${temples.closures}`;
 
     card.appendChild(img);
+    card.appendChild(tName);
     card.appendChild(Addr);
     card.appendChild(pNum);
+    card.appendChild(ordinances)
     card.appendChild(sessions);
     card.appendChild(service);
+    card.appendChild(closures);
     card.appendChild(history);
     card.appendChild(like);
 
